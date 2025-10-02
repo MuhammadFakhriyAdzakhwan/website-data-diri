@@ -1,0 +1,225 @@
+<style>
+  body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background: #0c39bf;
+  color: white;
+  padding: 15px 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav {
+  background: linear-gradient(90deg, #5b00f8, #0206ff);
+  padding: 10px 20px;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li {
+  margin: 0 15px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+nav ul li a:hover {
+  color: yellow;
+}
+
+.container {
+  padding: 20px;
+}
+
+.info {
+  background: #f5f5f5;
+  padding: 15px;
+  border-radius: 8px;
+  margin-bottom: 20px;
+}
+
+.footer {
+  background: #4c9dcf;
+  color: white;
+  text-align: center;
+  padding: 10px;
+}
+
+
+    nav {
+      background: linear-gradient(90deg, #006aff, #e11d48);
+      padding: 10px 20px;
+      position: sticky;
+      top: 0;
+      z-index: 1000;
+    }
+    nav ul {
+      list-style: none;
+      display: flex;
+      justify-content: center;
+      margin: 0;
+      padding: 0;
+    }
+    nav ul li {
+      margin: 0 15px;
+    }
+    nav ul li a {
+      text-decoration: none;
+      color: white;
+      font-weight: bold;
+      transition: 0.3s;
+    }
+    nav ul li a:hover {
+      color: yellow;
+    }
+
+    body {
+      font-family: Arial, sans-serif;
+      background: linear-gradient(135deg, #4a90e2, #515156);
+      margin: 0;
+      padding: 0;
+      color: #0c0c0c;
+    }
+    header {
+      background: linear-gradient(90deg, #0c61ab, #128fd3);
+      color: white;
+      text-align: center;
+      padding: 25px 0;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+    }
+    header h1 {
+      margin: 0;
+      
+      font-size: 2em;
+      letter-spacing: 1px;
+    }
+
+    /* Tombol Toggle Mode */
+    #toggleMode {
+      position: absolute;
+      right: 20px;
+      top: 20px;
+      padding: 6px 12px;
+      background: white;
+      color: #0c61ab;
+      border: none;
+      border-radius: 8px;
+      cursor: pointer;
+      font-weight: bold;
+    }
+    .container {
+      width: 85%;
+      max-width: 900px;
+      margin: 30px auto;
+      background: white;
+      padding: 25px;
+      border-radius: 15px;
+      box-shadow: 0 6px 15px rgba(0,0,0,0.2);
+      animation: fadeIn 1s ease-in-out;
+    }
+    @keyframes fadeIn {
+      from { opacity: 0
+        ; transform: translateY(20px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+    img {
+      display: block;
+      margin: 0 auto 20px;
+      width: 180px;
+      height: 180px;
+      object-fit: cover;
+      border-radius: 50%;
+      border: 4px solid #0c61ab;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+    }
+    h2 {
+      color: #164875;
+      border-bottom: 2px solid #e0e0e0;
+      padding-bottom: 5px;
+      margin-top: 20px;
+    }
+    .info p {
+      margin: 6px 0;
+      font-size: 1rem;
+    }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-top: 15px;
+      font-size: 0.95rem;
+    }
+    table, th, td {
+      border: 1px solid #bbb;
+    }
+    th, td {
+      padding: 12px;
+      text-align: center;
+    }
+    th {
+      background: linear-gradient(135deg, #4a90e2, #515156);
+      color: white;
+    }
+    tr:hover {
+      background-color: #f1f7ff;
+    }
+    .footer {
+      text-align: center;
+      margin-top: 25px;
+      font-size: 0.9rem;
+      color: #ddd;
+    }
+
+    Dark Mode Style
+    body.dark {
+      background: linear-gradient(135deg, #1b1b1b, #333);
+      color: #eee;
+    }
+    body.dark .container {
+      background: #2a2a2a;
+      color: #0a0101;
+    }
+    body.dark th {
+      background: #444;
+    }
+    body.dark td {
+      border-color: #666;
+    }
+    .social-links a {
+    display: inline-block;
+    margin: 5px;
+    padding: 8px 14px;
+    background: linear-gradient(135deg, #4a90e2, #515156);
+    color: white;
+    text-decoration: none;
+    border-radius: 8px;
+    font-weight: bold;
+    transition: 0.3s;
+  }
+.social-links a:hover {
+  background: #0c61ab;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: linear-gradient(135deg, #4facfe, #00f2fe);
+  min-height: 100vh;
+}
+
+
+  </style>
